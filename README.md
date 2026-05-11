@@ -1,5 +1,7 @@
 # dmarc-audit
 
+[![test](https://github.com/berkant-koc/dmarc-audit/actions/workflows/test.yml/badge.svg)](https://github.com/berkant-koc/dmarc-audit/actions/workflows/test.yml)
+
 Pulls [RFC 7489](https://www.rfc-editor.org/rfc/rfc7489) DMARC aggregate
 reports out of an IMAP mailbox, parses the `.gz` / `.zip` / `.xml`
 attachments transparently, and prints a per-record verdict plus an
