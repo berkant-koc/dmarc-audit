@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.secrets/
+secrets/
+
+# password files (per-deployment, not source)
+*.password
+.dmarc_*_password
